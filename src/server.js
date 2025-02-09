@@ -17,8 +17,8 @@ export const setupServer = () => {
     app.use(
       cors({
         origin: [
-          'https://water-tracker-frontend-seven.vercel.app',
-          'http://localhost:5173'
+          'https://fin-pr-fin-front.vercel.app/signup',
+          'http://localhost:5173',
         ],
         methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
         credentials: true,
